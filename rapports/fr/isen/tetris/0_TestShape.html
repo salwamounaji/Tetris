@@ -1,0 +1,491 @@
+<html xmlns:string="xalan://java.lang.String" xmlns:lxslt="http://xml.apache.org/xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Unit Test Results: fr.isen.tetris.TestShape</title>
+<link rel="stylesheet" type="text/css" title="Style" href="../../../stylesheet.css">
+<script type="text/javascript" language="JavaScript">
+        var TestCases = new Array();
+        var cur;
+        
+    cur = TestCases['fr.isen.tetris.TestShape'] = new Array();
+    
+        cur['ant.core.lib'] = '/home/dosipic/software/eclipse/plugins/org.apache.ant_1.10.3.v20180417-1627/lib/ant.jar';
+    
+        cur['ant.file'] = '/home/dosipic/Téléchargements/TetrisAnt_final/TetrisAnt/Build.xml';
+    
+        cur['ant.file.Compilation de Tetris'] = '/home/dosipic/Téléchargements/TetrisAnt_final/TetrisAnt/Build.xml';
+    
+        cur['ant.file.type.Compilation de Tetris'] = 'file';
+    
+        cur['ant.home'] = '/home/dosipic/software/eclipse/plugins/org.apache.ant_1.10.3.v20180417-1627';
+    
+        cur['ant.home.ivy.instance'] = '/home/dosipic/software/eclipse/plugins/org.apache.ant_1.10.3.v20180417-1627';
+    
+        cur['ant.java.version'] = '1.8';
+    
+        cur['ant.library.dir'] = '/home/dosipic/software/eclipse/plugins/org.apache.ant_1.10.3.v20180417-1627/lib';
+    
+        cur['ant.library.dir.ivy.instance'] = '/home/dosipic/software/eclipse/plugins/org.apache.ant_1.10.3.v20180417-1627/lib';
+    
+        cur['ant.project.default-target'] = 'dist';
+    
+        cur['ant.project.invoked-targets'] = 'all';
+    
+        cur['ant.project.name'] = 'Compilation de Tetris';
+    
+        cur['ant.version'] = 'Apache Ant(TM) version 1.10.3 compiled on March 24 2018';
+    
+        cur['awt.toolkit'] = 'sun.awt.X11.XToolkit';
+    
+        cur['awt.toolkit.ivy.instance'] = 'sun.awt.X11.XToolkit';
+    
+        cur['basedir'] = '/home/dosipic/Téléchargements/TetrisAnt_final/TetrisAnt';
+    
+        cur['basedir.ivy.instance'] = '/home/dosipic/Téléchargements/TetrisAnt_final/TetrisAnt';
+    
+        cur['compile.classpath'] = '/home/dosipic/Téléchargements/TetrisAnt_final/TetrisAnt/lib/commons-lang3-3.5.jar';
+    
+        cur['doc.dir'] = 'javadoc';
+    
+        cur['file.encoding'] = 'UTF-8';
+    
+        cur['file.encoding.ivy.instance'] = 'UTF-8';
+    
+        cur['file.encoding.pkg'] = 'sun.io';
+    
+        cur['file.encoding.pkg.ivy.instance'] = 'sun.io';
+    
+        cur['file.separator'] = '/';
+    
+        cur['file.separator.ivy.instance'] = '/';
+    
+        cur['ivy.basedir'] = '/home/dosipic/Téléchargements/TetrisAnt_final/TetrisAnt';
+    
+        cur['ivy.basedir.ivy.instance'] = '/home/dosipic/Téléchargements/TetrisAnt_final/TetrisAnt';
+    
+        cur['ivy.build.artifacts.dir'] = '/home/dosipic/Téléchargements/TetrisAnt_final/TetrisAnt/build/artifacts';
+    
+        cur['ivy.build.artifacts.dir.ivy.instance'] = '/home/dosipic/Téléchargements/TetrisAnt_final/TetrisAnt/build/artifacts';
+    
+        cur['ivy.buildlist.ivyfilepath'] = 'ivy.xml';
+    
+        cur['ivy.buildlist.ivyfilepath.ivy.instance'] = 'ivy.xml';
+    
+        cur['ivy.cache.dir'] = '/home/dosipic/.ivy2/cache';
+    
+        cur['ivy.cache.dir.ivy.instance'] = '/home/dosipic/.ivy2/cache';
+    
+        cur['ivy.cache.ttl.default'] = '10s';
+    
+        cur['ivy.cache.ttl.default.ivy.instance'] = '10s';
+    
+        cur['ivy.checksums'] = 'sha1,md5';
+    
+        cur['ivy.checksums.ivy.instance'] = 'sha1,md5';
+    
+        cur['ivy.conf.dir'] = 'jar:file:/usr/share/java/ivy-2.3.0.jar!/org/apache/ivy/core/settings';
+    
+        cur['ivy.conf.dir.ivy.instance'] = 'jar:file:/usr/share/java/ivy-2.3.0.jar!/org/apache/ivy/core/settings';
+    
+        cur['ivy.conf.url'] = 'jar:file:/usr/share/java/ivy-2.3.0.jar!/org/apache/ivy/core/settings/ivysettings.xml';
+    
+        cur['ivy.conf.url.ivy.instance'] = 'jar:file:/usr/share/java/ivy-2.3.0.jar!/org/apache/ivy/core/settings/ivysettings.xml';
+    
+        cur['ivy.configurations'] = '*';
+    
+        cur['ivy.configurations.ivy.instance'] = '*';
+    
+        cur['ivy.default.always.check.exact.revision'] = 'false';
+    
+        cur['ivy.default.always.check.exact.revision.ivy.instance'] = 'false';
+    
+        cur['ivy.default.conf.dir'] = 'jar:file:/usr/share/java/ivy-2.3.0.jar!/org/apache/ivy/core/settings';
+    
+        cur['ivy.default.conf.dir.ivy.instance'] = 'jar:file:/usr/share/java/ivy-2.3.0.jar!/org/apache/ivy/core/settings';
+    
+        cur['ivy.default.ivy.user.dir'] = '/home/dosipic/.ivy2';
+    
+        cur['ivy.default.ivy.user.dir.ivy.instance'] = '/home/dosipic/.ivy2';
+    
+        cur['ivy.default.settings.dir'] = 'jar:file:/usr/share/java/ivy-2.3.0.jar!/org/apache/ivy/core/settings';
+    
+        cur['ivy.default.settings.dir.ivy.instance'] = 'jar:file:/usr/share/java/ivy-2.3.0.jar!/org/apache/ivy/core/settings';
+    
+        cur['ivy.deliver.ivy.pattern'] = '/home/dosipic/Téléchargements/TetrisAnt_final/TetrisAnt/distrib/[type]s/[artifact]-[revision](-[classifier]).[ext]';
+    
+        cur['ivy.deliver.ivy.pattern.ivy.instance'] = '/home/dosipic/Téléchargements/TetrisAnt_final/TetrisAnt/distrib/[type]s/[artifact]-[revision](-[classifier]).[ext]';
+    
+        cur['ivy.dep.file'] = 'ivy.xml';
+    
+        cur['ivy.dep.file.ivy.instance'] = 'ivy.xml';
+    
+        cur['ivy.deps.changed'] = 'false';
+    
+        cur['ivy.distrib.dir'] = '/home/dosipic/Téléchargements/TetrisAnt_final/TetrisAnt/distrib';
+    
+        cur['ivy.distrib.dir.ivy.instance'] = '/home/dosipic/Téléchargements/TetrisAnt_final/TetrisAnt/distrib';
+    
+        cur['ivy.home'] = '/home/dosipic/.ivy2';
+    
+        cur['ivy.home.ivy.instance'] = '/home/dosipic/.ivy2';
+    
+        cur['ivy.lib.dir'] = '/home/dosipic/Téléchargements/TetrisAnt_final/TetrisAnt/lib';
+    
+        cur['ivy.lib.dir.ivy.instance'] = '/home/dosipic/Téléchargements/TetrisAnt_final/TetrisAnt/lib';
+    
+        cur['ivy.local.default.artifact.pattern'] = '[organisation]/[module]/[revision]/[type]s/[artifact].[ext]';
+    
+        cur['ivy.local.default.artifact.pattern.ivy.instance'] = '[organisation]/[module]/[revision]/[type]s/[artifact].[ext]';
+    
+        cur['ivy.local.default.ivy.pattern'] = '[organisation]/[module]/[revision]/[type]s/[artifact].[ext]';
+    
+        cur['ivy.local.default.ivy.pattern.ivy.instance'] = '[organisation]/[module]/[revision]/[type]s/[artifact].[ext]';
+    
+        cur['ivy.local.default.root'] = '/home/dosipic/.ivy2/local';
+    
+        cur['ivy.local.default.root.ivy.instance'] = '/home/dosipic/.ivy2/local';
+    
+        cur['ivy.log.modules.in.use'] = 'false';
+    
+        cur['ivy.log.modules.in.use.ivy.instance'] = 'false';
+    
+        cur['ivy.module'] = 'ivy-exemple';
+    
+        cur['ivy.nb.targets.copied'] = '0';
+    
+        cur['ivy.organisation'] = 'fr.ubo';
+    
+        cur['ivy.parents.count'] = '0';
+    
+        cur['ivy.project.dir'] = '/home/dosipic/Téléchargements/TetrisAnt_final/TetrisAnt';
+    
+        cur['ivy.project.dir.ivy.instance'] = '/home/dosipic/Téléchargements/TetrisAnt_final/TetrisAnt';
+    
+        cur['ivy.publish.src.artifacts.pattern'] = '/home/dosipic/Téléchargements/TetrisAnt_final/TetrisAnt/distrib/[type]s/[artifact]-[revision](-[classifier]).[ext]';
+    
+        cur['ivy.publish.src.artifacts.pattern.ivy.instance'] = '/home/dosipic/Téléchargements/TetrisAnt_final/TetrisAnt/distrib/[type]s/[artifact]-[revision](-[classifier]).[ext]';
+    
+        cur['ivy.report.output.pattern'] = '[organisation]-[module]-[conf].[ext]';
+    
+        cur['ivy.report.output.pattern.ivy.instance'] = '[organisation]-[module]-[conf].[ext]';
+    
+        cur['ivy.resolve.default.type.filter'] = '*';
+    
+        cur['ivy.resolve.default.type.filter.ivy.instance'] = '*';
+    
+        cur['ivy.resolved.configurations'] = 'default';
+    
+        cur['ivy.resolved.file'] = '/home/dosipic/Téléchargements/TetrisAnt_final/TetrisAnt/ivy.xml';
+    
+        cur['ivy.resolver.default.check.modified'] = 'false';
+    
+        cur['ivy.resolver.default.check.modified.ivy.instance'] = 'false';
+    
+        cur['ivy.retrieve.pattern'] = '/home/dosipic/Téléchargements/TetrisAnt_final/TetrisAnt/lib/[artifact]-[revision](-[classifier]).[ext]';
+    
+        cur['ivy.retrieve.pattern.ivy.instance'] = '/home/dosipic/Téléchargements/TetrisAnt_final/TetrisAnt/lib/[artifact]-[revision](-[classifier]).[ext]';
+    
+        cur['ivy.revision'] = 'working@dosipic-VirtualBox';
+    
+        cur['ivy.settings.dir'] = 'jar:file:/usr/share/java/ivy-2.3.0.jar!/org/apache/ivy/core/settings';
+    
+        cur['ivy.settings.dir.ivy.instance'] = 'jar:file:/usr/share/java/ivy-2.3.0.jar!/org/apache/ivy/core/settings';
+    
+        cur['ivy.settings.dir.url'] = 'jar:file:/usr/share/java/ivy-2.3.0.jar!/org/apache/ivy/core/settings';
+    
+        cur['ivy.settings.dir.url.ivy.instance'] = 'jar:file:/usr/share/java/ivy-2.3.0.jar!/org/apache/ivy/core/settings';
+    
+        cur['ivy.settings.file'] = 'ivysettings.xml';
+    
+        cur['ivy.settings.file.ivy.instance'] = 'ivysettings.xml';
+    
+        cur['ivy.settings.url'] = 'jar:file:/usr/share/java/ivy-2.3.0.jar!/org/apache/ivy/core/settings/ivysettings.xml';
+    
+        cur['ivy.settings.url.ivy.instance'] = 'jar:file:/usr/share/java/ivy-2.3.0.jar!/org/apache/ivy/core/settings/ivysettings.xml';
+    
+        cur['ivy.shared.default.artifact.pattern'] = '[organisation]/[module]/[revision]/[type]s/[artifact].[ext]';
+    
+        cur['ivy.shared.default.artifact.pattern.ivy.instance'] = '[organisation]/[module]/[revision]/[type]s/[artifact].[ext]';
+    
+        cur['ivy.shared.default.ivy.pattern'] = '[organisation]/[module]/[revision]/[type]s/[artifact].[ext]';
+    
+        cur['ivy.shared.default.ivy.pattern.ivy.instance'] = '[organisation]/[module]/[revision]/[type]s/[artifact].[ext]';
+    
+        cur['ivy.shared.default.root'] = '/home/dosipic/.ivy2/shared';
+    
+        cur['ivy.shared.default.root.ivy.instance'] = '/home/dosipic/.ivy2/shared';
+    
+        cur['ivy.status'] = 'integration';
+    
+        cur['ivy.status.ivy.instance'] = 'integration';
+    
+        cur['ivy.targets.copied'] = 'false';
+    
+        cur['ivy.version'] = 'non official version';
+    
+        cur['java.awt.graphicsenv'] = 'sun.awt.X11GraphicsEnvironment';
+    
+        cur['java.awt.graphicsenv.ivy.instance'] = 'sun.awt.X11GraphicsEnvironment';
+    
+        cur['java.awt.printerjob'] = 'sun.print.PSPrinterJob';
+    
+        cur['java.awt.printerjob.ivy.instance'] = 'sun.print.PSPrinterJob';
+    
+        cur['java.class.path'] = '/home/dosipic/Téléchargements/TetrisAnt_final/TetrisAnt/lib/commons-lang3-3.5.jar:/home/dosipic/Téléchargements/TetrisAnt_final/TetrisAnt/lib/junit-4.12.jar:/home/dosipic/Téléchargements/TetrisAnt_final/TetrisAnt/lib/hamcrest-core-1.3.jar:/home/dosipic/Téléchargements/TetrisAnt_final/TetrisAnt/bin:/home/dosipic/software/eclipse/plugins/org.apache.ant_1.10.3.v20180417-1627/lib/ant-launcher.jar:/home/dosipic/software/eclipse/plugins/org.apache.ant_1.10.3.v20180417-1627/lib/ant.jar:/home/dosipic/software/eclipse/plugins/org.apache.ant_1.10.3.v20180417-1627/lib/ant-junit.jar:/home/dosipic/software/eclipse/plugins/org.apache.ant_1.10.3.v20180417-1627/lib/ant-junit4.jar';
+    
+        cur['java.class.path.ivy.instance'] = '/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/localedata.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/icedtea-sound.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/jaccess.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/sunec.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/nashorn.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/zipfs.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/cldrdata.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/java-atk-wrapper.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/sunpkcs11.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/sunjce_provider.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/dnsns.jar:/home/dosipic/software/eclipse/plugins/org.apache.ant_1.10.3.v20180417-1627/lib/ant-antlr.jar:/home/dosipic/software/eclipse/plugins/org.apache.ant_1.10.3.v20180417-1627/lib/ant-apache-bcel.jar:/home/dosipic/software/eclipse/plugins/org.apache.ant_1.10.3.v20180417-1627/lib/ant-apache-bsf.jar:/home/dosipic/software/eclipse/plugins/org.apache.ant_1.10.3.v20180417-1627/lib/ant-apache-log4j.jar:/home/dosipic/software/eclipse/plugins/org.apache.ant_1.10.3.v20180417-1627/lib/ant-apache-oro.jar:/home/dosipic/software/eclipse/plugins/org.apache.ant_1.10.3.v20180417-1627/lib/ant-apache-regexp.jar:/home/dosipic/software/eclipse/plugins/org.apache.ant_1.10.3.v20180417-1627/lib/ant-apache-resolver.jar:/home/dosipic/software/eclipse/plugins/org.apache.ant_1.10.3.v20180417-1627/lib/ant-apache-xalan2.jar:/home/dosipic/software/eclipse/plugins/org.apache.ant_1.10.3.v20180417-1627/lib/ant-commons-logging.jar:/home/dosipic/software/eclipse/plugins/org.apache.ant_1.10.3.v20180417-1627/lib/ant-commons-net.jar:/home/dosipic/software/eclipse/plugins/org.apache.ant_1.10.3.v20180417-1627/lib/ant-jai.jar:/home/dosipic/software/eclipse/plugins/org.apache.ant_1.10.3.v20180417-1627/lib/ant-javamail.jar:/home/dosipic/software/eclipse/plugins/org.apache.ant_1.10.3.v20180417-1627/lib/ant-jdepend.jar:/home/dosipic/software/eclipse/plugins/org.apache.ant_1.10.3.v20180417-1627/lib/ant-jmf.jar:/home/dosipic/software/eclipse/plugins/org.apache.ant_1.10.3.v20180417-1627/lib/ant-jsch.jar:/home/dosipic/software/eclipse/plugins/org.apache.ant_1.10.3.v20180417-1627/lib/ant-junit.jar:/home/dosipic/software/eclipse/plugins/org.apache.ant_1.10.3.v20180417-1627/lib/ant-junit4.jar:/home/dosipic/software/eclipse/plugins/org.apache.ant_1.10.3.v20180417-1627/lib/ant-junitlauncher.jar:/home/dosipic/software/eclipse/plugins/org.apache.ant_1.10.3.v20180417-1627/lib/ant-launcher.jar:/home/dosipic/software/eclipse/plugins/org.apache.ant_1.10.3.v20180417-1627/lib/ant-netrexx.jar:/home/dosipic/software/eclipse/plugins/org.apache.ant_1.10.3.v20180417-1627/lib/ant-swing.jar:/home/dosipic/software/eclipse/plugins/org.apache.ant_1.10.3.v20180417-1627/lib/ant-testutil.jar:/home/dosipic/software/eclipse/plugins/org.apache.ant_1.10.3.v20180417-1627/lib/ant-xz.jar:/home/dosipic/software/eclipse/plugins/org.apache.ant_1.10.3.v20180417-1627/lib/ant.jar:/usr/share/ant/lib/ivy.jar:/home/dosipic/software/eclipse/configuration/org.eclipse.osgi/72/0/.cp/lib/antdebug.jar:/home/dosipic/software/eclipse/configuration/org.eclipse.osgi/72/0/.cp/lib/remote.jar:/home/dosipic/software/eclipse/configuration/org.eclipse.osgi/73/0/.cp/lib/remoteAnt.jar:/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar:/home/dosipic/software/eclipse/plugins/org.eclipse.swt.gtk.linux.x86_64_3.107.0.v20180611-0422.jar';
+    
+        cur['java.class.version'] = '52.0';
+    
+        cur['java.class.version.ivy.instance'] = '52.0';
+    
+        cur['java.endorsed.dirs'] = '/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed';
+    
+        cur['java.endorsed.dirs.ivy.instance'] = '/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed';
+    
+        cur['java.ext.dirs'] = '/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext';
+    
+        cur['java.ext.dirs.ivy.instance'] = '/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext';
+    
+        cur['java.home'] = '/usr/lib/jvm/java-8-openjdk-amd64/jre';
+    
+        cur['java.home.ivy.instance'] = '/usr/lib/jvm/java-8-openjdk-amd64/jre';
+    
+        cur['java.io.tmpdir'] = '/tmp';
+    
+        cur['java.io.tmpdir.ivy.instance'] = '/tmp';
+    
+        cur['java.library.path'] = '/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib';
+    
+        cur['java.library.path.ivy.instance'] = '/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib:/home/dosipic/software/eclipse/configuration/org.eclipse.osgi/415/0/.cp';
+    
+        cur['java.runtime.name'] = 'OpenJDK Runtime Environment';
+    
+        cur['java.runtime.name.ivy.instance'] = 'OpenJDK Runtime Environment';
+    
+        cur['java.runtime.version'] = '1.8.0_171-8u171-b11-0ubuntu0.18.04.1-b11';
+    
+        cur['java.runtime.version.ivy.instance'] = '1.8.0_171-8u171-b11-0ubuntu0.18.04.1-b11';
+    
+        cur['java.specification.name'] = 'Java Platform API Specification';
+    
+        cur['java.specification.name.ivy.instance'] = 'Java Platform API Specification';
+    
+        cur['java.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.specification.vendor.ivy.instance'] = 'Oracle Corporation';
+    
+        cur['java.specification.version'] = '1.8';
+    
+        cur['java.specification.version.ivy.instance'] = '1.8';
+    
+        cur['java.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vendor.ivy.instance'] = 'Oracle Corporation';
+    
+        cur['java.vendor.url'] = 'http://java.oracle.com/';
+    
+        cur['java.vendor.url.bug'] = 'http://bugreport.sun.com/bugreport/';
+    
+        cur['java.vendor.url.bug.ivy.instance'] = 'http://bugreport.sun.com/bugreport/';
+    
+        cur['java.vendor.url.ivy.instance'] = 'http://java.oracle.com/';
+    
+        cur['java.version'] = '1.8.0_171';
+    
+        cur['java.version.ivy.instance'] = '1.8.0_171';
+    
+        cur['java.vm.info'] = 'mixed mode';
+    
+        cur['java.vm.info.ivy.instance'] = 'mixed mode';
+    
+        cur['java.vm.name'] = 'OpenJDK 64-Bit Server VM';
+    
+        cur['java.vm.name.ivy.instance'] = 'OpenJDK 64-Bit Server VM';
+    
+        cur['java.vm.specification.name'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.name.ivy.instance'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.specification.vendor.ivy.instance'] = 'Oracle Corporation';
+    
+        cur['java.vm.specification.version'] = '1.8';
+    
+        cur['java.vm.specification.version.ivy.instance'] = '1.8';
+    
+        cur['java.vm.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.vendor.ivy.instance'] = 'Oracle Corporation';
+    
+        cur['java.vm.version'] = '25.171-b11';
+    
+        cur['java.vm.version.ivy.instance'] = '25.171-b11';
+    
+        cur['libs.dir'] = 'libs';
+    
+        cur['line.separator'] = '\n';
+    
+        cur['line.separator.ivy.instance'] = '\n';
+    
+        cur['main-class'] = 'fr.ubo.tertris.Tertis';
+    
+        cur['obj.dir'] = 'bin';
+    
+        cur['os.arch'] = 'amd64';
+    
+        cur['os.arch.ivy.instance'] = 'amd64';
+    
+        cur['os.name'] = 'Linux';
+    
+        cur['os.name.ivy.instance'] = 'Linux';
+    
+        cur['os.version'] = '4.15.0-29-generic';
+    
+        cur['os.version.ivy.instance'] = '4.15.0-29-generic';
+    
+        cur['path.separator'] = ':';
+    
+        cur['path.separator.ivy.instance'] = ':';
+    
+        cur['src.dir'] = 'src';
+    
+        cur['sun.arch.data.model'] = '64';
+    
+        cur['sun.arch.data.model.ivy.instance'] = '64';
+    
+        cur['sun.boot.class.path'] = '/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes';
+    
+        cur['sun.boot.class.path.ivy.instance'] = '/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes';
+    
+        cur['sun.boot.library.path'] = '/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64';
+    
+        cur['sun.boot.library.path.ivy.instance'] = '/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64';
+    
+        cur['sun.cpu.endian'] = 'little';
+    
+        cur['sun.cpu.endian.ivy.instance'] = 'little';
+    
+        cur['sun.cpu.isalist'] = '';
+    
+        cur['sun.cpu.isalist.ivy.instance'] = '';
+    
+        cur['sun.desktop'] = 'gnome';
+    
+        cur['sun.desktop.ivy.instance'] = 'gnome';
+    
+        cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
+    
+        cur['sun.io.unicode.encoding.ivy.instance'] = 'UnicodeLittle';
+    
+        cur['sun.java.command'] = 'org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner fr.isen.tetris.TestShape skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=true formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter,/home/dosipic/Téléchargements/TetrisAnt_final/TetrisAnt/bin/test-results/TEST-fr.isen.tetris.TestShape.txt formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/dosipic/Téléchargements/TetrisAnt_final/TetrisAnt/bin/test-results/TEST-fr.isen.tetris.TestShape.xml crashfile=/home/dosipic/Téléchargements/TetrisAnt_final/TetrisAnt/junitvmwatcher7695994900360101981.properties propsfile=/home/dosipic/Téléchargements/TetrisAnt_final/TetrisAnt/junit3273700264075643868.properties';
+    
+        cur['sun.java.command.ivy.instance'] = 'org.eclipse.ant.internal.launching.remote.InternalAntRunner -Dorg.eclipse.ant.core.ANT_PROCESS_ID=1537451112541 -Declipse.connect.port=42967 -Dant.home=/home/dosipic/software/eclipse/plugins/org.apache.ant_1.10.3.v20180417-1627 -logger org.eclipse.ant.internal.launching.remote.logger.RemoteAntBuildLogger -inputhandler org.eclipse.ant.internal.ui.antsupport.inputhandler.ProxyInputHandler -buildfile /home/dosipic/Téléchargements/TetrisAnt_final/TetrisAnt/Build.xml all';
+    
+        cur['sun.java.launcher'] = 'SUN_STANDARD';
+    
+        cur['sun.java.launcher.ivy.instance'] = 'SUN_STANDARD';
+    
+        cur['sun.jnu.encoding'] = 'UTF-8';
+    
+        cur['sun.jnu.encoding.ivy.instance'] = 'UTF-8';
+    
+        cur['sun.management.compiler'] = 'HotSpot 64-Bit Tiered Compilers';
+    
+        cur['sun.management.compiler.ivy.instance'] = 'HotSpot 64-Bit Tiered Compilers';
+    
+        cur['sun.os.patch.level'] = 'unknown';
+    
+        cur['sun.os.patch.level.ivy.instance'] = 'unknown';
+    
+        cur['test.reports'] = 'test-reports';
+    
+        cur['test.result.dir'] = 'test-results';
+    
+        cur['user.country'] = 'FR';
+    
+        cur['user.country.ivy.instance'] = 'FR';
+    
+        cur['user.dir'] = '/home/dosipic/Téléchargements/TetrisAnt_final/TetrisAnt';
+    
+        cur['user.dir.ivy.instance'] = '/home/dosipic/Téléchargements/TetrisAnt_final/TetrisAnt';
+    
+        cur['user.home'] = '/home/dosipic';
+    
+        cur['user.home.ivy.instance'] = '/home/dosipic';
+    
+        cur['user.language'] = 'fr';
+    
+        cur['user.language.ivy.instance'] = 'fr';
+    
+        cur['user.name'] = 'dosipic';
+    
+        cur['user.name.ivy.instance'] = 'dosipic';
+    
+        cur['user.timezone'] = '';
+    
+        cur['user.timezone.ivy.instance'] = 'Europe/Paris';
+    </script><script type="text/javascript" language="JavaScript">
+        function displayProperties (name) {
+          var win = window.open('','JUnitSystemProperties','scrollbars=1,resizable=1');
+          var doc = win.document;
+          doc.open();
+          doc.write("<html><head><title>Properties of " + name + "</title>");
+          doc.write("<style type=\"text/css\">");
+          doc.write("body {font:normal 68% verdana,arial,helvetica; color:#000000; }");
+          doc.write("table tr td, table tr th { font-size: 68%; }");
+          doc.write("table.properties { border-collapse:collapse; border-left:solid 1 #cccccc; border-top:solid 1 #cccccc; padding:5px; }");
+          doc.write("table.properties th { text-align:left; border-right:solid 1 #cccccc; border-bottom:solid 1 #cccccc; background-color:#eeeeee; }");
+          doc.write("table.properties td { font:normal; text-align:left; border-right:solid 1 #cccccc; border-bottom:solid 1 #cccccc; background-color:#fffffff; }");
+          doc.write("h3 { margin-bottom: 0.5em; font: bold 115% verdana,arial,helvetica }");
+          doc.write("</style>");
+          doc.write("</head><body>");
+          doc.write("<h3>Properties of " + name + "</h3>");
+          doc.write("<div align=\"right\"><a href=\"javascript:window.close();\">Close</a></div>");
+          doc.write("<table class='properties'>");
+          doc.write("<tr><th>Name</th><th>Value</th></tr>");
+          for (prop in TestCases[name]) {
+            doc.write("<tr><th>" + prop + "</th><td>" + TestCases[name][prop] + "</td></tr>");
+          }
+          doc.write("</table>");
+          doc.write("</body></html>");
+          doc.close();
+          win.focus();
+        }
+      
+      </script>
+</head>
+<body>
+<h1>Unit Test Results.</h1>
+<table width="100%">
+<tr>
+<td align="left"></td><td align="right">Designed for use with <a href="http://www.junit.org/">JUnit</a> and <a href="http://ant.apache.org/">Ant</a>.</td>
+</tr>
+</table>
+<hr size="1">
+<h3>Class fr.isen.tetris.TestShape</h3>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th width="80%">Name</th><th>Tests</th><th>Errors</th><th>Failures</th><th>Skipped</th><th nowrap>Time(s)</th><th nowrap>Time Stamp</th><th>Host</th>
+</tr>
+<tr valign="top" class="Pass">
+<td><a title="Display all tests" href="0_TestShape.html">TestShape</a></td><td><a title="Display all tests" href="0_TestShape.html">1</a></td><td>0</td><td>0</td><td>0</td><td>0.138</td><td>2018-09-20T13:45:18</td><td>dosipic-VirtualBox</td>
+</tr>
+</table>
+<h2>Tests</h2>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="TableRowColor">
+<td><a name="setRandomShape"></a>setRandomShape</td><td>Success</td><td></td><td>0.003</td>
+</tr>
+</table>
+<div class="Properties">
+<a href="javascript:displayProperties('fr.isen.tetris.TestShape');">
+                    Properties &raquo;
+                </a>
+</div>
+</body>
+</html>

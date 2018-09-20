@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="dosipic-VirtualBox" id="0" name="TestShape" package="fr.isen.tetris" skipped="0" tests="1" time="0.138" timestamp="2018-09-20T13:45:18">
+      <properties>
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="ivy.retrieve.pattern.ivy.instance" value="/home/dosipic/Téléchargements/TetrisAnt_final/TetrisAnt/lib/[artifact]-[revision](-[classifier]).[ext]" />
+
+          <property name="java.vendor.url.ivy.instance" value="http://java.oracle.com/" />
+
+          <property name="ivy.local.default.ivy.pattern.ivy.instance" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
+
+          <property name="ivy.project.dir.ivy.instance" value="/home/dosipic/Téléchargements/TetrisAnt_final/TetrisAnt" />
+
+          <property name="ivy.resolve.default.type.filter" value="*" />
+
+          <property name="java.home" value="/usr/lib/jvm/java-8-openjdk-amd64/jre" />
+
+          <property name="ivy.configurations.ivy.instance" value="*" />
+
+          <property name="ivy.basedir.ivy.instance" value="/home/dosipic/Téléchargements/TetrisAnt_final/TetrisAnt" />
+
+          <property name="ivy.dep.file.ivy.instance" value="ivy.xml" />
+
+          <property name="test.reports" value="test-reports" />
+
+          <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed" />
+
+          <property name="java.class.path.ivy.instance" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/localedata.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/icedtea-sound.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/jaccess.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/sunec.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/nashorn.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/zipfs.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/cldrdata.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/java-atk-wrapper.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/sunpkcs11.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/sunjce_provider.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/dnsns.jar:/home/dosipic/software/eclipse/plugins/org.apache.ant_1.10.3.v20180417-1627/lib/ant-antlr.jar:/home/dosipic/software/eclipse/plugins/org.apache.ant_1.10.3.v20180417-1627/lib/ant-apache-bcel.jar:/home/dosipic/software/eclipse/plugins/org.apache.ant_1.10.3.v20180417-1627/lib/ant-apache-bsf.jar:/home/dosipic/software/eclipse/plugins/org.apache.ant_1.10.3.v20180417-1627/lib/ant-apache-log4j.jar:/home/dosipic/software/eclipse/plugins/org.apache.ant_1.10.3.v20180417-1627/lib/ant-apache-oro.jar:/home/dosipic/software/eclipse/plugins/org.apache.ant_1.10.3.v20180417-1627/lib/ant-apache-regexp.jar:/home/dosipic/software/eclipse/plugins/org.apache.ant_1.10.3.v20180417-1627/lib/ant-apache-resolver.jar:/home/dosipic/software/eclipse/plugins/org.apache.ant_1.10.3.v20180417-1627/lib/ant-apache-xalan2.jar:/home/dosipic/software/eclipse/plugins/org.apache.ant_1.10.3.v20180417-1627/lib/ant-commons-logging.jar:/home/dosipic/software/eclipse/plugins/org.apache.ant_1.10.3.v20180417-1627/lib/ant-commons-net.jar:/home/dosipic/software/eclipse/plugins/org.apache.ant_1.10.3.v20180417-1627/lib/ant-jai.jar:/home/dosipic/software/eclipse/plugins/org.apache.ant_1.10.3.v20180417-1627/lib/ant-javamail.jar:/home/dosipic/software/eclipse/plugins/org.apache.ant_1.10.3.v20180417-1627/lib/ant-jdepend.jar:/home/dosipic/software/eclipse/plugins/org.apache.ant_1.10.3.v20180417-1627/lib/ant-jmf.jar:/home/dosipic/software/eclipse/plugins/org.apache.ant_1.10.3.v20180417-1627/lib/ant-jsch.jar:/home/dosipic/software/eclipse/plugins/org.apache.ant_1.10.3.v20180417-1627/lib/ant-junit.jar:/home/dosipic/software/eclipse/plugins/org.apache.ant_1.10.3.v20180417-1627/lib/ant-junit4.jar:/home/dosipic/software/eclipse/plugins/org.apache.ant_1.10.3.v20180417-1627/lib/ant-junitlauncher.jar:/home/dosipic/software/eclipse/plugins/org.apache.ant_1.10.3.v20180417-1627/lib/ant-launcher.jar:/home/dosipic/software/eclipse/plugins/org.apache.ant_1.10.3.v20180417-1627/lib/ant-netrexx.jar:/home/dosipic/software/eclipse/plugins/org.apache.ant_1.10.3.v20180417-1627/lib/ant-swing.jar:/home/dosipic/software/eclipse/plugins/org.apache.ant_1.10.3.v20180417-1627/lib/ant-testutil.jar:/home/dosipic/software/eclipse/plugins/org.apache.ant_1.10.3.v20180417-1627/lib/ant-xz.jar:/home/dosipic/software/eclipse/plugins/org.apache.ant_1.10.3.v20180417-1627/lib/ant.jar:/usr/share/ant/lib/ivy.jar:/home/dosipic/software/eclipse/configuration/org.eclipse.osgi/72/0/.cp/lib/antdebug.jar:/home/dosipic/software/eclipse/configuration/org.eclipse.osgi/72/0/.cp/lib/remote.jar:/home/dosipic/software/eclipse/configuration/org.eclipse.osgi/73/0/.cp/lib/remoteAnt.jar:/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar:/home/dosipic/software/eclipse/plugins/org.eclipse.swt.gtk.linux.x86_64_3.107.0.v20180611-0422.jar" />
+
+          <property name="ivy.home" value="/home/dosipic/.ivy2" />
+
+          <property name="src.dir" value="src" />
+
+          <property name="obj.dir" value="bin" />
+
+          <property name="java.vm.specification.vendor.ivy.instance" value="Oracle Corporation" />
+
+          <property name="sun.os.patch.level" value="unknown" />
+
+          <property name="ivy.dep.file" value="ivy.xml" />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="ivy.local.default.artifact.pattern.ivy.instance" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
+
+          <property name="ivy.lib.dir.ivy.instance" value="/home/dosipic/Téléchargements/TetrisAnt_final/TetrisAnt/lib" />
+
+          <property name="java.version" value="1.8.0_171" />
+
+          <property name="ivy.conf.dir.ivy.instance" value="jar:file:/usr/share/java/ivy-2.3.0.jar!/org/apache/ivy/core/settings" />
+
+          <property name="sun.boot.library.path.ivy.instance" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64" />
+
+          <property name="ivy.report.output.pattern.ivy.instance" value="[organisation]-[module]-[conf].[ext]" />
+
+          <property name="ivy.module" value="ivy-exemple" />
+
+          <property name="ivy.publish.src.artifacts.pattern.ivy.instance" value="/home/dosipic/Téléchargements/TetrisAnt_final/TetrisAnt/distrib/[type]s/[artifact]-[revision](-[classifier]).[ext]" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="sun.management.compiler.ivy.instance" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="ant.project.invoked-targets" value="all" />
+
+          <property name="ivy.local.default.artifact.pattern" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
+
+          <property name="os.name.ivy.instance" value="Linux" />
+
+          <property name="ivy.default.ivy.user.dir.ivy.instance" value="/home/dosipic/.ivy2" />
+
+          <property name="ivy.default.always.check.exact.revision" value="false" />
+
+          <property name="ivy.default.settings.dir.ivy.instance" value="jar:file:/usr/share/java/ivy-2.3.0.jar!/org/apache/ivy/core/settings" />
+
+          <property name="user.name" value="dosipic" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="ivy.shared.default.root.ivy.instance" value="/home/dosipic/.ivy2/shared" />
+
+          <property name="sun.jnu.encoding" value="UTF-8" />
+
+          <property name="java.runtime.name" value="OpenJDK Runtime Environment" />
+
+          <property name="ant.home.ivy.instance" value="/home/dosipic/software/eclipse/plugins/org.apache.ant_1.10.3.v20180417-1627" />
+
+          <property name="file.encoding.ivy.instance" value="UTF-8" />
+
+          <property name="libs.dir" value="libs" />
+
+          <property name="ivy.cache.ttl.default.ivy.instance" value="10s" />
+
+          <property name="java.specification.vendor.ivy.instance" value="Oracle Corporation" />
+
+          <property name="java.vendor.ivy.instance" value="Oracle Corporation" />
+
+          <property name="sun.cpu.isalist.ivy.instance" value="" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="java.endorsed.dirs.ivy.instance" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed" />
+
+          <property name="path.separator" value=":" />
+
+          <property name="java.class.version.ivy.instance" value="52.0" />
+
+          <property name="ivy.default.conf.dir" value="jar:file:/usr/share/java/ivy-2.3.0.jar!/org/apache/ivy/core/settings" />
+
+          <property name="file.encoding" value="UTF-8" />
+
+          <property name="java.runtime.name.ivy.instance" value="OpenJDK Runtime Environment" />
+
+          <property name="ivy.resolve.default.type.filter.ivy.instance" value="*" />
+
+          <property name="ant.project.default-target" value="dist" />
+
+          <property name="ivy.targets.copied" value="false" />
+
+          <property name="ivy.parents.count" value="0" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner fr.isen.tetris.TestShape skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=true formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter,/home/dosipic/Téléchargements/TetrisAnt_final/TetrisAnt/bin/test-results/TEST-fr.isen.tetris.TestShape.txt formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/dosipic/Téléchargements/TetrisAnt_final/TetrisAnt/bin/test-results/TEST-fr.isen.tetris.TestShape.xml crashfile=/home/dosipic/Téléchargements/TetrisAnt_final/TetrisAnt/junitvmwatcher7695994900360101981.properties propsfile=/home/dosipic/Téléchargements/TetrisAnt_final/TetrisAnt/junit3273700264075643868.properties" />
+
+          <property name="ivy.shared.default.artifact.pattern" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
+
+          <property name="ant.file" value="/home/dosipic/Téléchargements/TetrisAnt_final/TetrisAnt/Build.xml" />
+
+          <property name="ivy.distrib.dir.ivy.instance" value="/home/dosipic/Téléchargements/TetrisAnt_final/TetrisAnt/distrib" />
+
+          <property name="ivy.checksums.ivy.instance" value="sha1,md5" />
+
+          <property name="ant.file.Compilation de Tetris" value="/home/dosipic/Téléchargements/TetrisAnt_final/TetrisAnt/Build.xml" />
+
+          <property name="sun.arch.data.model.ivy.instance" value="64" />
+
+          <property name="ivy.build.artifacts.dir.ivy.instance" value="/home/dosipic/Téléchargements/TetrisAnt_final/TetrisAnt/build/artifacts" />
+
+          <property name="ivy.settings.file" value="ivysettings.xml" />
+
+          <property name="java.io.tmpdir" value="/tmp" />
+
+          <property name="ivy.buildlist.ivyfilepath.ivy.instance" value="ivy.xml" />
+
+          <property name="ivy.cache.ttl.default" value="10s" />
+
+          <property name="user.language" value="fr" />
+
+          <property name="user.dir.ivy.instance" value="/home/dosipic/Téléchargements/TetrisAnt_final/TetrisAnt" />
+
+          <property name="ivy.home.ivy.instance" value="/home/dosipic/.ivy2" />
+
+          <property name="line.separator" value="&#xa;" />
+
+          <property name="java.specification.version.ivy.instance" value="1.8" />
+
+          <property name="ivy.build.artifacts.dir" value="/home/dosipic/Téléchargements/TetrisAnt_final/TetrisAnt/build/artifacts" />
+
+          <property name="ivy.settings.dir.url" value="jar:file:/usr/share/java/ivy-2.3.0.jar!/org/apache/ivy/core/settings" />
+
+          <property name="sun.io.unicode.encoding.ivy.instance" value="UnicodeLittle" />
+
+          <property name="ivy.status" value="integration" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="ivy.lib.dir" value="/home/dosipic/Téléchargements/TetrisAnt_final/TetrisAnt/lib" />
+
+          <property name="sun.desktop" value="gnome" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="ivy.default.conf.dir.ivy.instance" value="jar:file:/usr/share/java/ivy-2.3.0.jar!/org/apache/ivy/core/settings" />
+
+          <property name="java.vm.version.ivy.instance" value="25.171-b11" />
+
+          <property name="compile.classpath" value="/home/dosipic/Téléchargements/TetrisAnt_final/TetrisAnt/lib/commons-lang3-3.5.jar" />
+
+          <property name="user.name.ivy.instance" value="dosipic" />
+
+          <property name="ivy.cache.dir" value="/home/dosipic/.ivy2/cache" />
+
+          <property name="java.awt.printerjob" value="sun.print.PSPrinterJob" />
+
+          <property name="java.io.tmpdir.ivy.instance" value="/tmp" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.10.3 compiled on March 24 2018" />
+
+          <property name="java.home.ivy.instance" value="/usr/lib/jvm/java-8-openjdk-amd64/jre" />
+
+          <property name="java.vm.vendor.ivy.instance" value="Oracle Corporation" />
+
+          <property name="ivy.default.settings.dir" value="jar:file:/usr/share/java/ivy-2.3.0.jar!/org/apache/ivy/core/settings" />
+
+          <property name="ivy.configurations" value="*" />
+
+          <property name="ivy.settings.url" value="jar:file:/usr/share/java/ivy-2.3.0.jar!/org/apache/ivy/core/settings/ivysettings.xml" />
+
+          <property name="os.name" value="Linux" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="sun.jnu.encoding.ivy.instance" value="UTF-8" />
+
+          <property name="ivy.deliver.ivy.pattern.ivy.instance" value="/home/dosipic/Téléchargements/TetrisAnt_final/TetrisAnt/distrib/[type]s/[artifact]-[revision](-[classifier]).[ext]" />
+
+          <property name="ivy.checksums" value="sha1,md5" />
+
+          <property name="java.vm.name" value="OpenJDK 64-Bit Server VM" />
+
+          <property name="ivy.log.modules.in.use" value="false" />
+
+          <property name="java.runtime.version.ivy.instance" value="1.8.0_171-8u171-b11-0ubuntu0.18.04.1-b11" />
+
+          <property name="ivy.report.output.pattern" value="[organisation]-[module]-[conf].[ext]" />
+
+          <property name="ivy.version" value="non official version" />
+
+          <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib" />
+
+          <property name="ivy.conf.url" value="jar:file:/usr/share/java/ivy-2.3.0.jar!/org/apache/ivy/core/settings/ivysettings.xml" />
+
+          <property name="java.vm.name.ivy.instance" value="OpenJDK 64-Bit Server VM" />
+
+          <property name="os.version.ivy.instance" value="4.15.0-29-generic" />
+
+          <property name="line.separator.ivy.instance" value="&#xa;" />
+
+          <property name="ant.java.version" value="1.8" />
+
+          <property name="sun.desktop.ivy.instance" value="gnome" />
+
+          <property name="sun.cpu.endian.ivy.instance" value="little" />
+
+          <property name="java.vm.specification.name.ivy.instance" value="Java Virtual Machine Specification" />
+
+          <property name="basedir" value="/home/dosipic/Téléchargements/TetrisAnt_final/TetrisAnt" />
+
+          <property name="java.class.version" value="52.0" />
+
+          <property name="ivy.settings.url.ivy.instance" value="jar:file:/usr/share/java/ivy-2.3.0.jar!/org/apache/ivy/core/settings/ivysettings.xml" />
+
+          <property name="path.separator.ivy.instance" value=":" />
+
+          <property name="sun.boot.class.path.ivy.instance" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes" />
+
+          <property name="test.result.dir" value="test-results" />
+
+          <property name="ant.home" value="/home/dosipic/software/eclipse/plugins/org.apache.ant_1.10.3.v20180417-1627" />
+
+          <property name="ivy.resolved.configurations" value="default" />
+
+          <property name="ivy.deliver.ivy.pattern" value="/home/dosipic/Téléchargements/TetrisAnt_final/TetrisAnt/distrib/[type]s/[artifact]-[revision](-[classifier]).[ext]" />
+
+          <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64" />
+
+          <property name="ivy.default.always.check.exact.revision.ivy.instance" value="false" />
+
+          <property name="java.library.path.ivy.instance" value="/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib:/home/dosipic/software/eclipse/configuration/org.eclipse.osgi/415/0/.cp" />
+
+          <property name="awt.toolkit.ivy.instance" value="sun.awt.X11.XToolkit" />
+
+          <property name="ivy.basedir" value="/home/dosipic/Téléchargements/TetrisAnt_final/TetrisAnt" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="java.ext.dirs.ivy.instance" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment" />
+
+          <property name="ivy.log.modules.in.use.ivy.instance" value="false" />
+
+          <property name="main-class" value="fr.ubo.tertris.Tertis" />
+
+          <property name="ivy.settings.dir.url.ivy.instance" value="jar:file:/usr/share/java/ivy-2.3.0.jar!/org/apache/ivy/core/settings" />
+
+          <property name="sun.os.patch.level.ivy.instance" value="unknown" />
+
+          <property name="file.encoding.pkg.ivy.instance" value="sun.io" />
+
+          <property name="ivy.resolver.default.check.modified" value="false" />
+
+          <property name="ivy.shared.default.ivy.pattern" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
+
+          <property name="ivy.settings.file.ivy.instance" value="ivysettings.xml" />
+
+          <property name="ivy.nb.targets.copied" value="0" />
+
+          <property name="ant.project.name" value="Compilation de Tetris" />
+
+          <property name="ivy.cache.dir.ivy.instance" value="/home/dosipic/.ivy2/cache" />
+
+          <property name="java.vm.specification.version" value="1.8" />
+
+          <property name="ivy.status.ivy.instance" value="integration" />
+
+          <property name="ant.file.type.Compilation de Tetris" value="file" />
+
+          <property name="doc.dir" value="javadoc" />
+
+          <property name="awt.toolkit" value="sun.awt.X11.XToolkit" />
+
+          <property name="sun.cpu.isalist" value="" />
+
+          <property name="file.separator.ivy.instance" value="/" />
+
+          <property name="ivy.deps.changed" value="false" />
+
+          <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext" />
+
+          <property name="ivy.local.default.root.ivy.instance" value="/home/dosipic/.ivy2/local" />
+
+          <property name="os.version" value="4.15.0-29-generic" />
+
+          <property name="user.home" value="/home/dosipic" />
+
+          <property name="sun.java.launcher.ivy.instance" value="SUN_STANDARD" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="ivy.local.default.root" value="/home/dosipic/.ivy2/local" />
+
+          <property name="ivy.organisation" value="fr.ubo" />
+
+          <property name="user.dir" value="/home/dosipic/Téléchargements/TetrisAnt_final/TetrisAnt" />
+
+          <property name="ant.library.dir.ivy.instance" value="/home/dosipic/software/eclipse/plugins/org.apache.ant_1.10.3.v20180417-1627/lib" />
+
+          <property name="ivy.local.default.ivy.pattern" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
+
+          <property name="ivy.shared.default.ivy.pattern.ivy.instance" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
+
+          <property name="java.vm.info.ivy.instance" value="mixed mode" />
+
+          <property name="ivy.publish.src.artifacts.pattern" value="/home/dosipic/Téléchargements/TetrisAnt_final/TetrisAnt/distrib/[type]s/[artifact]-[revision](-[classifier]).[ext]" />
+
+          <property name="sun.java.command.ivy.instance" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner -Dorg.eclipse.ant.core.ANT_PROCESS_ID=1537451112541 -Declipse.connect.port=42967 -Dant.home=/home/dosipic/software/eclipse/plugins/org.apache.ant_1.10.3.v20180417-1627 -logger org.eclipse.ant.internal.launching.remote.logger.RemoteAntBuildLogger -inputhandler org.eclipse.ant.internal.ui.antsupport.inputhandler.ProxyInputHandler -buildfile /home/dosipic/Téléchargements/TetrisAnt_final/TetrisAnt/Build.xml all" />
+
+          <property name="ivy.distrib.dir" value="/home/dosipic/Téléchargements/TetrisAnt_final/TetrisAnt/distrib" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="ivy.revision" value="working@dosipic-VirtualBox" />
+
+          <property name="user.timezone.ivy.instance" value="Europe/Paris" />
+
+          <property name="java.vm.version" value="25.171-b11" />
+
+          <property name="java.class.path" value="/home/dosipic/Téléchargements/TetrisAnt_final/TetrisAnt/lib/commons-lang3-3.5.jar:/home/dosipic/Téléchargements/TetrisAnt_final/TetrisAnt/lib/junit-4.12.jar:/home/dosipic/Téléchargements/TetrisAnt_final/TetrisAnt/lib/hamcrest-core-1.3.jar:/home/dosipic/Téléchargements/TetrisAnt_final/TetrisAnt/bin:/home/dosipic/software/eclipse/plugins/org.apache.ant_1.10.3.v20180417-1627/lib/ant-launcher.jar:/home/dosipic/software/eclipse/plugins/org.apache.ant_1.10.3.v20180417-1627/lib/ant.jar:/home/dosipic/software/eclipse/plugins/org.apache.ant_1.10.3.v20180417-1627/lib/ant-junit.jar:/home/dosipic/software/eclipse/plugins/org.apache.ant_1.10.3.v20180417-1627/lib/ant-junit4.jar" />
+
+          <property name="ivy.default.ivy.user.dir" value="/home/dosipic/.ivy2" />
+
+          <property name="user.home.ivy.instance" value="/home/dosipic" />
+
+          <property name="basedir.ivy.instance" value="/home/dosipic/Téléchargements/TetrisAnt_final/TetrisAnt" />
+
+          <property name="ant.library.dir" value="/home/dosipic/software/eclipse/plugins/org.apache.ant_1.10.3.v20180417-1627/lib" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.awt.graphicsenv.ivy.instance" value="sun.awt.X11GraphicsEnvironment" />
+
+          <property name="java.vendor.url.bug.ivy.instance" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="java.vm.specification.version.ivy.instance" value="1.8" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="java.awt.printerjob.ivy.instance" value="sun.print.PSPrinterJob" />
+
+          <property name="ivy.settings.dir.ivy.instance" value="jar:file:/usr/share/java/ivy-2.3.0.jar!/org/apache/ivy/core/settings" />
+
+          <property name="ivy.resolver.default.check.modified.ivy.instance" value="false" />
+
+          <property name="ant.core.lib" value="/home/dosipic/software/eclipse/plugins/org.apache.ant_1.10.3.v20180417-1627/lib/ant.jar" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ivy.settings.dir" value="jar:file:/usr/share/java/ivy-2.3.0.jar!/org/apache/ivy/core/settings" />
+
+          <property name="file.separator" value="/" />
+
+          <property name="user.language.ivy.instance" value="fr" />
+
+          <property name="ivy.shared.default.artifact.pattern.ivy.instance" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
+
+          <property name="user.country.ivy.instance" value="FR" />
+
+          <property name="ivy.conf.url.ivy.instance" value="jar:file:/usr/share/java/ivy-2.3.0.jar!/org/apache/ivy/core/settings/ivysettings.xml" />
+
+          <property name="java.runtime.version" value="1.8.0_171-8u171-b11-0ubuntu0.18.04.1-b11" />
+
+          <property name="java.specification.name.ivy.instance" value="Java Platform API Specification" />
+
+          <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes" />
+
+          <property name="ivy.conf.dir" value="jar:file:/usr/share/java/ivy-2.3.0.jar!/org/apache/ivy/core/settings" />
+
+          <property name="ivy.retrieve.pattern" value="/home/dosipic/Téléchargements/TetrisAnt_final/TetrisAnt/lib/[artifact]-[revision](-[classifier]).[ext]" />
+
+          <property name="user.country" value="FR" />
+
+          <property name="ivy.shared.default.root" value="/home/dosipic/.ivy2/shared" />
+
+          <property name="java.version.ivy.instance" value="1.8.0_171" />
+
+          <property name="ivy.resolved.file" value="/home/dosipic/Téléchargements/TetrisAnt_final/TetrisAnt/ivy.xml" />
+
+          <property name="os.arch.ivy.instance" value="amd64" />
+
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="ivy.project.dir" value="/home/dosipic/Téléchargements/TetrisAnt_final/TetrisAnt" />
+
+          <property name="java.specification.version" value="1.8" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="ivy.buildlist.ivyfilepath" value="ivy.xml" />
+
+      </properties>
+
+      <testcase classname="fr.isen.tetris.TestShape" name="setRandomShape" time="0.003" />
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+</testsuites>
